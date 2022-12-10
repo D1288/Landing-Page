@@ -93,3 +93,34 @@ button {
 }
 
 /* Completed info section */
+
+.quotecontainer {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.innercontainer {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+}
+
+/* Completed quote section */
