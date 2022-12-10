@@ -4,9 +4,11 @@
     padding: 50px 200px;
 }
 
-h2 {
+.headerh2 {
     margin: 0;
-    padding: 0;
+    padding-top: 0;
+    font-size: 24px;
+    color: #f9faf8;
 }
 .topper {
     display: flex;
@@ -14,6 +16,7 @@ h2 {
     align-items: center;
     margin-top: -20px;
     margin-bottom: 50px;
+
 }
 
 .links {
@@ -23,6 +26,8 @@ h2 {
     text-decoration: none;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header-content {
@@ -38,7 +43,7 @@ h2 {
     margin-left: -16px;
 }
 
-img {
+.headerimg {
     width: 400px;
 }
 
@@ -50,9 +55,41 @@ img {
 
 button {
     background-color: #3882f6;
-    padding: 8px;
+    padding: 8px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    color: white;
 }
+
+.headertext {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+/* Competed Header Content */
+
+
+.infoheader {
+    text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.infocontainer {
+    display: flex;
+    padding: 50px 250px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.infocard {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    gap: 16px;
+}
+
+/* Completed info section */
