@@ -128,10 +128,11 @@ button {
 .COA {
     background-color: #3882f6;
     padding: 16px 64px;
-    margin: 60px 96px;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 800px;
 }
 
 .COAbutton {
@@ -150,3 +151,21 @@ button {
 }
 
 /* Completed COA section */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0
+}
+
+/* Completed footer and body formatting */
