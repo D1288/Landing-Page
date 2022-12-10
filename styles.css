@@ -89,7 +89,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 80px;
-    gap: 16px;
+    text-align: center;
 }
 
 /* Completed info section */
@@ -124,3 +124,29 @@ button {
 }
 
 /* Completed quote section */
+
+.COA {
+    background-color: #3882f6;
+    padding: 16px 64px;
+    margin: 60px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.COAbutton {
+    outline: solid 2px white;
+    padding: 5px 16px;
+}
+
+.COAtext {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.COAsubtext {
+    margin-top: -10px;
+}
+
+/* Completed COA section */
